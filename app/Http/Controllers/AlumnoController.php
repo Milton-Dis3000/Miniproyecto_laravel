@@ -43,12 +43,10 @@ class AlumnoController extends Controller
     /**
      * Display the specified resource.
      */
-    public function show(string $id)
-
+    public function show($id)
     {
-        $alumno = Alumno::find($id);
-        $alumno->matriculas;
-        return $alumno;
+        $alumno = new Alumno();
+        return $alumno->find($id);
     }
 
     /**
@@ -85,6 +83,18 @@ class AlumnoController extends Controller
         $alumno->delete();
         return $alumno;
     }
+
+
+
+    public function matricula(string $id)
+
+    {
+        $alumno = Alumno::find($id);
+        $alumno->matriculas;
+        return $alumno;
+   
+    }
+
 }
 
 
