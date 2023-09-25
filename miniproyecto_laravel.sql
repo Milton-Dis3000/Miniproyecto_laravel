@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1:3306
--- Tiempo de generación: 25-09-2023 a las 15:41:07
+-- Tiempo de generación: 25-09-2023 a las 15:50:29
 -- Versión del servidor: 8.0.31
 -- Versión de PHP: 8.0.26
 
@@ -39,23 +39,23 @@ CREATE TABLE IF NOT EXISTS `alumnos` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=13 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `alumnos`
 --
 
 INSERT INTO `alumnos` (`id`, `nombres`, `apellidos`, `direccion`, `email`, `telefono`, `edad`, `created_at`, `updated_at`) VALUES
-(1, 'Keara Schmitt', 'Windler', '684 Mercedes Expressway Suite 584\nMeaghantown, MS 06342-4109', 'laila.maggio@tillman.net', '1-520-351-3291', 38, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(2, 'Jaquan Johnston DVM', 'Bahringer', '88651 Hill Causeway Apt. 725\nKohlertown, IN 37887-2636', 'austyn.hills@hotmail.com', '1-570-565-2850', 22, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(3, 'Miss Lisa Nolan', 'Brekke', '302 Mohammed Forges\nHahnshire, MN 82772', 'yolanda.nicolas@gmail.com', '+1 (612) 865-9599', 18, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(4, 'Estrella Ratke', 'Monahan', '3504 Becker Pines\nShaniyahaven, HI 91111', 'effie08@borer.com', '302-270-6614', 26, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(5, 'Prof. Jerel Schulist', 'Cronin', '2327 Alejandra Islands\nNew Sydneystad, MT 83903', 'reynold17@nienow.com', '(929) 467-2927', 39, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(6, 'Marco Lebsack', 'VonRueden', '3715 Schmeler Way\nEast Berneicefort, AZ 59890', 'piper.weber@wilkinson.com', '903.849.7250', 37, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(7, 'Blake Spencer', 'Heathcote', '3546 Norwood Course\nBlanchetown, FL 03065-1132', 'cummerata.jesse@yahoo.com', '(650) 474-2069', 87, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(8, 'Ms. Martine Hackett Jr.', 'Wisozk', '348 Johnston Park\nWest Rosannafurt, PA 85792-8658', 'ngibson@donnelly.com', '(760) 272-0721', 16, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(9, 'Nella Schoen', 'Jones', '90591 Hilario Pines\nMylenechester, LA 88341', 'ehill@stanton.com', '+1.781.685.3902', 29, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(10, 'Mr. Guillermo Ebert', 'Casper', '63264 Zachary Square Suite 350\nZiemannmouth, OK 41732', 'nvonrueden@yahoo.com', '1-864-931-8928', 47, '2023-09-25 19:13:09', '2023-09-25 19:13:09');
+(1, 'Efren Kutch', 'Mayert', '86399 Terry Mission Suite 675\nEvertchester, SC 01093', 'aliya12@marquardt.net', '(747) 855-6149', 47, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(2, 'Ms. Amiya Baumbach', 'Mraz', '18864 Albin Garden Apt. 590\nLyricport, ND 87677', 'eve63@hahn.info', '+12763892593', 67, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(3, 'Vanessa Breitenberg', 'White', '63011 Obie Ridges\nEast Marcelinashire, HI 91539', 'cary79@homenick.info', '+1 (513) 953-3790', 98, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(4, 'Prof. Herbert Watsica PhD', 'O\'Reilly', '80381 Ziemann Trail\nJakobfurt, SC 58058', 'jerry.dicki@gmail.com', '619.550.2052', 8, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(5, 'Harley Wiegand MD', 'Cummings', '264 Marquardt Fields Suite 052\nNorth Chester, TX 96116', 'alia78@terry.com', '+1 (347) 934-0587', 35, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(6, 'Prof. Henry Okuneva DVM', 'Rowe', '7278 Kuhic Curve\nLake Marlenehaven, GA 97166-5768', 'ephraim.ziemann@nicolas.info', '+1 (864) 421-8863', 61, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(7, 'Ms. Molly Fritsch Sr.', 'Schuppe', '7005 Brayan Street Apt. 075\nPearlineborough, UT 73726', 'hilpert.hilario@corwin.info', '+17274140437', 52, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(8, 'Lyric Fahey', 'Little', '9342 Veum Well\nPort Katherinebury, LA 10216', 'norwood65@purdy.org', '+16783000785', 96, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(9, 'Margret Murray Jr.', 'Mosciski', '22899 Kilback Landing Apt. 368\nJamelport, FL 92134', 'etha50@gmail.com', '+1 (973) 738-3968', 15, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(10, 'Mr. Lisandro Prosacco DVM', 'Lemke', '6698 Kutch Lane\nWolfchester, NE 05085', 'econroy@hotmail.com', '+1 (907) 378-8067', 61, '2023-09-25 20:42:26', '2023-09-25 20:42:26');
 
 -- --------------------------------------------------------
 
@@ -83,17 +83,17 @@ CREATE TABLE IF NOT EXISTS `asistencias` (
 --
 
 INSERT INTO `asistencias` (`id`, `asistio_temprano`, `asistio_tarde`, `falto`, `id_docente`, `id_alumno`, `created_at`, `updated_at`) VALUES
-(1, '', '', '', 1, 9, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(2, 'A', 'T', '', 1, 4, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(3, '', '', '', 9, 5, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(4, '', '', '', 3, 7, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(5, '', 'T', 'F', 3, 5, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(6, 'A', 'T', '', 3, 2, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(7, '', '', '', 1, 7, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(8, '', '', '', 6, 10, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(9, '', 'T', 'F', 4, 7, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(10, '', '', '', 4, 6, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(11, '-', '-', 'F', 1, 9, '2023-09-25 19:20:51', '2023-09-25 19:20:51');
+(1, '', 'T', 'F', 3, 7, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(2, 'A', 'T', 'F', 5, 1, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(3, 'A', '', '', 1, 8, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(4, 'A', 'T', '', 4, 8, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(5, 'A', 'T', 'F', 2, 2, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(6, '', '', '', 7, 9, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(7, '', '', 'F', 7, 1, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(8, 'A', '', '', 3, 10, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(9, '', '', 'F', 8, 1, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(10, '', 'T', 'F', 2, 2, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(11, '-', '-', 'F', 10, 10, '2023-09-25 20:49:38', '2023-09-25 20:49:38');
 
 -- --------------------------------------------------------
 
@@ -109,23 +109,23 @@ CREATE TABLE IF NOT EXISTS `cursos` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `cursos`
 --
 
 INSERT INTO `cursos` (`id`, `nombre_curso`, `descripcion`, `created_at`, `updated_at`) VALUES
-(1, 'Soluta quo non tempora sit rem.', 'Itaque quo ea vel.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(2, 'Dicta sit ipsa.', 'Laborum velit vitae ad.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(3, 'Id optio occaecati quia in.', 'Quidem porro ut et rerum.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(4, 'Nihil et et voluptas ipsa.', 'Odit ea a nemo unde nesciunt.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(5, 'Sint dolorem ut illum.', 'Quia dolor qui id velit quas.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(6, 'Voluptas doloremque reprehenderit.', 'Sed sint ut accusamus quod.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(7, 'Qui aut dolorem autem labore.', 'Sit id velit veritatis odit.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(8, 'Ea ad quae.', 'Id sunt asperiores quas.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(9, 'Labore aut vero magni cumque.', 'Quia sunt culpa odit vero.', '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(10, 'Matematica', 'Nuevo curso para las ciencias exacta', '2023-09-25 19:13:09', '2023-09-25 20:05:27');
+(1, 'Expedita ex voluptas explicabo veritatis quae.', 'Qui qui unde ut itaque qui.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(2, 'Voluptas et ratione.', 'Quia laboriosam nam itaque.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(3, 'Quas odio dolorem.', 'Quia omnis qui minus.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(4, 'Aut iste numquam et consequatur enim.', 'Velit aut iste explicabo.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(5, 'Voluptas architecto suscipit.', 'Non corrupti voluptas natus.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(6, 'Reiciendis quas est et consequuntur sit.', 'Tenetur vel ab et.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(7, 'Reiciendis quo est aut rem.', 'Expedita sit est neque et.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(8, 'Sunt voluptates illo aut.', 'Illum ut in aliquid et sunt.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(9, 'Nostrum reprehenderit nemo accusamus dolorem id.', 'Est aut quas deleniti non.', '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(10, 'Repellendus ut earum temporibus.', 'Eum expedita voluptatem quia.', '2023-09-25 20:42:26', '2023-09-25 20:42:26');
 
 -- --------------------------------------------------------
 
@@ -145,23 +145,23 @@ CREATE TABLE IF NOT EXISTS `docentes` (
   `created_at` timestamp NULL DEFAULT NULL,
   `updated_at` timestamp NULL DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=12 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=11 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 --
 -- Volcado de datos para la tabla `docentes`
 --
 
 INSERT INTO `docentes` (`id`, `nombres`, `apellidos`, `direccion`, `email`, `telefono`, `edad`, `created_at`, `updated_at`) VALUES
-(1, 'Willard Brakus III', 'Friesen', '6069 Ryan Port Suite 400\nWest Bernard, WI 26371', 'sokon@kemmer.com', '1-540-759-5086', 99, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(2, 'Prof. Demond Herzog', 'Nolan', '31253 Hackett Rapids Suite 162\nLake Herminiaborough, MS 48648-2047', 'abernathy.kane@runolfsson.net', '1-740-302-0096', 80, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(3, 'Kavon Bahringer DVM', 'Spencer', '2368 Dickinson Parks\nAbshirefurt, RI 21509-8242', 'colton.gibson@rippin.biz', '+1-707-353-8382', 35, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(4, 'Mr. Nash Ebert DVM', 'Green', '462 Colt Fork Apt. 129\nLake Janessa, NH 76460', 'condricka@yahoo.com', '339.723.4743', 21, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(5, 'Pamela Rowe', 'Borer', '1381 Kuphal Stravenue\nPort Marcelina, MI 38987-7093', 'kuhn.lucinda@rutherford.org', '601.934.6174', 78, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(6, 'Miss Emie Bergnaum PhD', 'Von', '961 Maye Drive Apt. 771\nDonnellyview, ME 81846-8580', 'vswift@gmail.com', '231.360.1180', 42, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(7, 'Grayce Hane', 'Kris', '8937 Jermaine Overpass Suite 248\nMargareteshire, GA 60917-1702', 'verla.nikolaus@yahoo.com', '1-941-457-0317', 93, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(8, 'Mrs. Cathrine Ernser DDS', 'Prosacco', '2784 Pauline Field\nNew Shaina, MD 74068-7025', 'rkuphal@gmail.com', '+16785829673', 30, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(9, 'Darian Larkin', 'Jakubowski', '3482 Sipes Fall\nWest Maria, CA 35452-4014', 'gloria50@hotmail.com', '863.216.8834', 8, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(10, 'Fermin Dickinson', 'Spinka', '59590 Bauch Corners Apt. 731\nNew Meaganburgh, ME 25419-6912', 'josephine.white@reynolds.org', '1-865-618-9090', 94, '2023-09-25 19:13:09', '2023-09-25 19:13:09');
+(1, 'Norval Nolan', 'Bergstrom', '10488 Lehner Glens Suite 578\nWatersburgh, NE 96753-5282', 'sophia.mann@fay.com', '1-757-939-5953', 70, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(2, 'Dr. Uriel Mills', 'Towne', '5874 Heaney Alley\nWillberg, AL 50243', 'ylesch@gleichner.net', '+1-586-491-6402', 93, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(3, 'Conner Dibbert', 'Collier', '8869 Eichmann Street\nAshleyfurt, AZ 76234', 'sylvester.von@rutherford.info', '+1.608.483.0010', 22, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(4, 'Bethany Schulist Sr.', 'Zieme', '437 Tristin Freeway\nMicahport, LA 01767', 'luettgen.cleve@yahoo.com', '+16502438595', 42, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(5, 'Miss Dortha Wolf', 'Lemke', '10404 Sawayn Loop\nLake Christelle, KY 82002-6483', 'robb00@roob.com', '959-541-2631', 33, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(6, 'Korey Kris', 'Green', '66891 Lakin Ports Suite 953\nJudgeville, MT 42444', 'carroll.bette@hotmail.com', '+1-283-478-0882', 12, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(7, 'Mrs. Michelle Zboncak Sr.', 'Bechtelar', '3550 Casper Square\nRosenbaumland, AR 02978-4969', 'rylee17@yahoo.com', '1-830-241-2550', 1, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(8, 'Terrill Rodriguez III', 'Kovacek', '45167 Ambrose Junctions Suite 037\nPort Vladimir, WY 95869', 'haylee57@hilpert.com', '260.676.1618', 50, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(9, 'Santa Hermiston', 'Kunze', '58597 Kessler Trafficway Suite 027\nNew Dariusport, IL 82478', 'huels.tyler@yahoo.com', '740.579.5467', 73, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(10, 'Dr. Morris Bergnaum DVM', 'Funk', '1965 Rippin Parkway Suite 673\nSouth Sage, WA 85083-3486', 'yadira.hartmann@gmail.com', '810-925-6518', 37, '2023-09-25 20:42:26', '2023-09-25 20:42:26');
 
 -- --------------------------------------------------------
 
@@ -206,16 +206,16 @@ CREATE TABLE IF NOT EXISTS `matriculas` (
 --
 
 INSERT INTO `matriculas` (`id`, `descripcion`, `id_curso`, `id_alumno`, `created_at`, `updated_at`) VALUES
-(1, 'Et vitae non possimus.', 8, 1, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(2, 'Praesentium eos ut qui a.', 1, 7, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(3, 'Officia odit aliquam natus.', 4, 1, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(4, 'Rem laborum sed quia.', 5, 3, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(5, 'In delectus hic ut quas.', 3, 1, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(6, 'Eum ut ex ducimus omnis.', 5, 5, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(7, 'Est autem sint aut amet.', 1, 5, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(8, 'Et eos nulla quam magni.', 9, 2, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(9, 'Voluptas dolorem et magni.', 8, 9, '2023-09-25 19:13:09', '2023-09-25 19:13:09'),
-(10, 'Saepe tenetur sunt ut.', 2, 5, '2023-09-25 19:13:09', '2023-09-25 19:13:09');
+(1, 'Iure laborum dolor vel.', 2, 4, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(2, 'Perferendis sit ab dolore.', 7, 10, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(3, 'Amet eos officia facilis sit.', 9, 7, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(4, 'Ut amet deserunt et tenetur.', 6, 6, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(5, 'Incidunt id eum et nobis.', 6, 4, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(6, 'Commodi rerum ea sit ducimus.', 6, 7, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(7, 'Nesciunt ut sint et.', 1, 5, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(8, 'Dolorem et ea quae.', 2, 2, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(9, 'Vel eius temporibus quo.', 7, 7, '2023-09-25 20:42:26', '2023-09-25 20:42:26'),
+(10, 'Nobis quia eveniet molestias.', 7, 5, '2023-09-25 20:42:26', '2023-09-25 20:42:26');
 
 -- --------------------------------------------------------
 
